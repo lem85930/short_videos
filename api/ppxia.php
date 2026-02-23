@@ -1,12 +1,12 @@
 <?php
 /**
-*@Author: JH-Ahua
- * @CreateTime: 2025/8/5 下午2:19
-*@email: admin@bugpk.com
-*@blog: www.jiuhunwl.cn
-*@Api: api.bugpk.com
-*@tip: 皮皮虾去水印解析
-*/
+ * @Author: JH-Ahua
+ * @CreateTime: 2026/2/23 下午11:21
+ * @email: admin@bugpk.com
+ * @blog: www.jiuhunwl.cn
+ * @Api: api.bugpk.com
+ * @tip: 皮皮虾去水印解析
+ */
 header("Access-Control-Allow-Origin: *");
 // 设置响应头为 JSON 格式
 header('content-type:application/json; charset=utf-8');
@@ -96,10 +96,19 @@ function pipixia($url)
         if (is_array($arr) && isset($arr['data']['cell_comments'][1]['comment_info']['item'])) {
             $video_url = $arr['data']['cell_comments'][1]['comment_info']['item']['video']['video_high']['url_list'][0]['url'] ?? null;
             $imageData = $arr['data']['cell_comments'][1]['comment_info']['item']['note'] ?? null;
+            // 1. 先初始化数组，避免后续使用时出现未定义变量警告
             $imgurl = [];
-            foreach ($imageData['multi_image'] as $item) {
-                if (isset($item['url_list'])) {
-                    $imgurl[] = $item['url_list'][0]['url'];
+
+            // 2. 第一层防护：检查 multi_image 是否存在且是数组
+            if (isset($imageData['multi_image']) && is_array($imageData['multi_image'])) {
+                foreach ($imageData['multi_image'] as $item) {
+                    // 3. 第二层防护：检查 url_list 是否存在、是数组且第一个元素存在
+                    if (isset($item['url_list']) && is_array($item['url_list']) && !empty($item['url_list'])) {
+                        // 4. 第三层防护：检查第一个元素是否有 url 字段
+                        if (isset($item['url_list'][0]['url'])) {
+                            $imgurl[] = $item['url_list'][0]['url'];
+                        }
+                    }
                 }
             }
             $result = [
