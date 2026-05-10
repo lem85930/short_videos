@@ -393,10 +393,16 @@ Thank you to the following generous supporters for your sponsorship! Your suppor
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #495057;">支持！</td>
     </tr>
     <tr style="background-color: #f8f9fa;">
-      <td style="border: none; padding: 14px; text-align: center; font-weight: 500;">14</td>
-      <td style="border: none; padding: 14px; text-align: center;">sky</td>
-      <td style="border: none; padding: 14px; text-align: center; color: #dc3545; font-weight: bold; font-size: 1.1em;">¥88.88</td>
-      <td style="border: none; padding: 14px; text-align: center; color: #495057;">再次支持！</td>
+      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; font-weight: 500;">14</td>
+      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center;">sky</td>
+      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #dc3545; font-weight: bold; font-size: 1.1em;">¥88.88</td>
+      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #495057;">再次支持！</td>
+    </tr>
+    <tr style="background-color: #ffffff;">
+      <td style="border: none; padding: 14px; text-align: center; font-weight: 500;">15</td>
+      <td style="border: none; padding: 14px; text-align: center;">笑而不語</td>
+      <td style="border: none; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥8.88</td>
+      <td style="border: none; padding: 14px; text-align: center; color: #495057;">支持！</td>
     </tr>
   </table>
 </div>
