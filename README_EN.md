@@ -526,6 +526,12 @@ Thank you to the following generous supporters for your sponsorship! Your suppor
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #dc3545; font-weight: bold; font-size: 1.1em;">¥18.88</td>
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #495057;">Support!</td>
     </tr>
+    <tr style="background-color: #f8f9fa;">
+      <td style="border: none; padding: 14px; text-align: center; font-weight: 500;">32</td>
+      <td style="border: none; padding: 14px; text-align: center;">小邪</td>
+      <td style="border: none; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥299.00</td>
+      <td style="border: none; padding: 14px; text-align: center; color: #495057;">Support!</td>
+    </tr>
   </table>
 </div>
 
