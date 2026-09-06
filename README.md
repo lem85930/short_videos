@@ -497,7 +497,7 @@ https://api.bugpk.com/api/douyin.php?url=https://v.douyin.com/xxxx/
     <tr style="background-color: #f8f9fa;">
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; font-weight: 500;">24</td>
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center;">Y</td>
-      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥276.88</td>
+      <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥465.76</td>
       <td style="border: none; border-bottom: 1px solid #e9ecef; padding: 14px; text-align: center; color: #495057;">支持！</td>
     </tr>
     <tr style="background-color: #ffffff;">
@@ -545,7 +545,7 @@ https://api.bugpk.com/api/douyin.php?url=https://v.douyin.com/xxxx/
     <tr style="background-color: #f8f9fa;">
       <td style="border: none; padding: 14px; text-align: center; font-weight: 500;">32</td>
       <td style="border: none; padding: 14px; text-align: center;">小邪</td>
-      <td style="border: none; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥299.00</td>
+      <td style="border: none; padding: 14px; text-align: center; color: #28a745; font-weight: bold; font-size: 1.1em;">¥698.00</td>
       <td style="border: none; padding: 14px; text-align: center; color: #495057;">支持！</td>
     </tr>
 
